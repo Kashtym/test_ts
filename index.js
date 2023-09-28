@@ -4,4 +4,6 @@ console.log("hello");
 var myFunc = function (x) {
     return x * 2;
 };
-console.log(myFunc(2));
+console.log(myFunc(3));
+
+//main commit
