@@ -4,7 +4,8 @@
     "description": "TypeScript project",
     "main": "index.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "runJS": "node ./out/index.js",
+        "build": "tsc && npm run runJS"
     },
     "author": "Kashtym",
     "license": "ISC",

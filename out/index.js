@@ -18,7 +18,6 @@
 //         F: 15,
 //     };
 //     let result: number = 0;
-
 //     function toHex(str: string): number {
 //         const arr = str.split("");
 //         let number: number = 0;
@@ -31,12 +30,11 @@
 //     }
 //     return hexString[0] === "-" ? toHex(hexString.slice(1)) * -1 : toHex(hexString);
 // }
-
-function alphanumeric(string: string) {
+function alphanumeric(string) {
     if (!string) {
         return false;
     }
     return /[^a-zA-Z0-9]/.test(string) ? false : true;
 }
-
 console.log(alphanumeric("hell oworld"));
+//# sourceMappingURL=index.js.map
