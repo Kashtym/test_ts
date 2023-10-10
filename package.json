@@ -4,7 +4,7 @@
     "description": "TypeScript project",
     "main": "index.js",
     "scripts": {
-        "runJS": "node ./out/index.js",
+        "runJS": "node ./dist/index.js",
         "build": "tsc && npm run runJS"
     },
     "author": "Kashtym",
